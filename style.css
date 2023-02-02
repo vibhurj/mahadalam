@@ -167,6 +167,10 @@ ul.dropdown-menu {
       padding-top: 1rem;
       padding-left: 0;
   }
+  nav .nav-link.active{
+    background-color: rgba(0, 0, 0, 0.636);
+    border-radius: 10px;
+  }
     
   }
   .navbar-nav {
@@ -193,10 +197,7 @@ nav .nav-link.active:hover{
   background-color: rgba(128, 128, 128, 0.4);
   border-radius: 10px;
 }
-nav .nav-link.active{
-  background-color: rgba(0, 0, 0, 0.636);
-  border-radius: 10px;
-}
+
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
