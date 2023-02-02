@@ -17,7 +17,6 @@ body{
     min-width: 100px;
     max-width: 270px;
     margin-left: 5em;
-    opacity: 50%;
 }
 .dropdown-item{
   background-color: aliceblue;
