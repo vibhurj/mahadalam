@@ -138,6 +138,7 @@ ul.dropdown-menu {
               transform-origin: 100% 0%;
       opacity: 1;
     }
+    
   }
   
 .main-nav {
@@ -171,7 +172,9 @@ ul.dropdown-menu {
     background-color: rgba(0, 0, 0, 0.636);
     border-radius: 10px;
   }
-    
+  nav .nav-link.active:hover{
+    width: 80%;
+  }
   }
   .navbar-nav {
     padding-top: 0;
@@ -196,13 +199,14 @@ ul.dropdown-menu {
 nav .nav-link.active:hover{
   background-color: rgba(128, 128, 128, 0.4);
   border-radius: 10px;
+  width: 100%;
 }
 
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
   text-align: center;
-  width: 80%;
+
   
 }
 .nav-item{
