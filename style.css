@@ -141,10 +141,13 @@ ul.dropdown-menu {
     }
   }
   
-nav {
+.navbb {
+  position: fixed;
     width: 100%;
-    background: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
     transition: background .5s linear;
+    top: 0;
+    z-index: 1000;
   }
   nav.scrolled {
     background: #212529f6;
