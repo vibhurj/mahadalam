@@ -129,8 +129,8 @@ ul.dropdown-menu {
 
   @media all and (max-width: 800px){
     .main-content{
-      margin-left: 3rem;
-      margin-right: 3rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
     }
     #navbar-nav {
       padding-top: 1rem;
@@ -140,8 +140,8 @@ ul.dropdown-menu {
     background-color: rgba(0, 0, 0, 0.636);
     border-radius: 10px;
   }
-  nav .nav-link.active:hover{
-    width: 80%;
+  .navbar-nav .nav-link {
+    margin-bottom: 7px;
   }
   }
   .navbar-nav {
@@ -174,8 +174,6 @@ nav .nav-link.active:hover{
   padding-right: 0;
   padding-left: 0;
   text-align: center;
-
-  
 }
 .nav-item{
   margin-top: 0;
